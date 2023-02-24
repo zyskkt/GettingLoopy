@@ -8,6 +8,7 @@ public class CtoF {
         boolean validNumber = false;
         String trash = "";
         System.out.println("Enter temperature in Celcius:");
+        //When valid number is false (default) run the program
         while (!validNumber) {
             if (in.hasNextDouble()) {
                 //Get temp from the input
